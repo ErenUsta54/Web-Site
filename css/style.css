@@ -387,3 +387,11 @@ body {
    color: #fff;
    font-size: 30px;
   }
+
+  .practice_img-box{
+    font-size: 70px;
+    color: #fff;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
