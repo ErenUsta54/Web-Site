@@ -255,7 +255,10 @@ body {
     justify-content: center;
     flex-wrap: wrap;
   }
-  
+  .practice_box h4{
+
+    color: #fddd33;
+  }
   .practice_box {
     display: flex;
     flex-direction: column;
@@ -268,9 +271,13 @@ body {
   
   .practice_box:hover {
     transform: translateY(-150px);
-    cursor: pointer;
+    cursor: pointer; 
+    color: #000205 !important;
   }
-  
+  .practice_box:hover h4{
+    transition: all .7s;
+    color: #000205 !important;
+  }
   .practice_box:hover .practice_img-box {
     background-color: #fddd33;
   }
